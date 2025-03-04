@@ -1,6 +1,7 @@
+import exe0.Carro;
 import javax.swing.*;
 
-public class Main {
+public class MainCarro {
     public static void main(String[] args) {
         // criação dos objetos da classe Carro
         // instanciando a classe Carro
