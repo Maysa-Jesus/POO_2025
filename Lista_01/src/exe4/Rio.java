@@ -46,9 +46,9 @@ public class Rio {
             System.out.println("O rio foi poluido com sucesso!");        }
 
     }
-    public void mostra(){
-        System.out.println("Nome: " + this.nome +
+    public String mostra(){
+        return "Nome: " + this.nome +
                 "\n Nível: " + this.nivel +
-                "\n Poluição: " + this.poluido);
+                "\n Poluição: " + (this.poluido ? "Sim!" : "Não!");
     }
 }
